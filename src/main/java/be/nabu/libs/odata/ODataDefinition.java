@@ -1,11 +1,11 @@
-package be.nabu.utils.odata;
+package be.nabu.libs.odata;
 
 import java.util.List;
 
+import be.nabu.libs.odata.types.ConformanceLevel;
+import be.nabu.libs.odata.types.Function;
+import be.nabu.libs.odata.types.NavigationProperty;
 import be.nabu.libs.types.api.TypeRegistry;
-import be.nabu.utils.odata.types.ConformanceLevel;
-import be.nabu.utils.odata.types.Function;
-import be.nabu.utils.odata.types.NavigationProperty;
 
 public interface ODataDefinition {
 	// the odata version

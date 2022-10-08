@@ -1,4 +1,4 @@
-package be.nabu.utils.odata.types;
+package be.nabu.libs.odata.types;
 
 import be.nabu.libs.types.api.Element;
 
