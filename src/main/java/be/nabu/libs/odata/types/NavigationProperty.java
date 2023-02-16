@@ -1,6 +1,7 @@
 package be.nabu.libs.odata.types;
 
 import be.nabu.libs.types.api.Element;
+import be.nabu.libs.types.api.ComplexType;
 
 public interface NavigationProperty {
 	// the entity the navigation is attached to
@@ -10,4 +11,7 @@ public interface NavigationProperty {
 	
 	// the actual element with metadata (like max occurs, nullable...)
 	public Element<?> getElement();
+	
+	// the element we use to update it
+	public ComplexType getUpdateType();
 }
