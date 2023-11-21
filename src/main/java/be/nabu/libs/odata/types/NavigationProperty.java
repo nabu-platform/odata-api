@@ -14,4 +14,11 @@ public interface NavigationProperty {
 	
 	// the element we use to update it
 	public ComplexType getUpdateType();
+	
+	/*
+	 * Whether the navigation property fully contains the target
+	 */
+	public default boolean isContainsTarget() {
+		return false;
+	}
 }
